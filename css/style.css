@@ -1,0 +1,59 @@
+.menu li {
+  text docoration: none;
+  display: inline;
+  border: 2px solid teal;
+  padding: 10px;
+  float: left;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+
+}
+
+.logo {
+  float: left;
+  text-transform: uppercase;
+
+}
+
+.menu {
+  float: right;
+}
+
+.header {
+  height: 450px;
+  background-image: url('../images/work.jpeg');
+  clear: both;
+  background-position: center;
+}
+
+.headerbox {
+  width: 500px;
+  height: 200px;
+  background-color: white;
+  margin-left: 100px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.mainbody {
+  height: 450px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.left {
+  float: left;
+  width: 49%%;
+  margin-right: 2%;
+
+}
+
+.right {
+  float: right;
+  width: 49%%;
+  margin-left: 2%;
+}
